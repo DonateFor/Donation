@@ -212,8 +212,8 @@
             document.getElementById("amt").style.display = "block";
         }
         if(amont == "true"){
-        const name = "DonateFor";
-        const upi = "9586319762@okbizaxis";
+        const name = adminame;
+        const upi = upicode ;
         const amt = document.getElementById('amt').value;
         var url = "upi://pay?pa=" + upi + "&pn=" + name + "&am=" + amt + "&tn=&cu=INR";
         var mrc = upi ;
@@ -221,8 +221,8 @@
         function inputChnage(event) {
           loder()
           event.preventDefault();
-          const name = "DonateFor";
-          const upi = "9586319762@okbizaxis";
+          const name = adminame;
+          const upi = upicode ;
           const amt = document.getElementById('amt').value;
           url = "upi://pay?pa=" + upi + "&pn=" + name + "&am=" + amt + "&tn=&cu=INR";
           generateQRCode()
