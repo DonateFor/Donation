@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxm2zH2lCFN3uL4K-6PVCBcpNAIiSpaio8cprYlpBEZo8o7tCZ0qZ0e0xYbYPGjwtDQ/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbycrjBq4PxfWkduo9unkpCrKTCLiiDBtZ5T9uc-elxYqbk1UIengBiqts1v4DeCIj59/exec'
 const form = document.forms['donate']
 
 form.addEventListener('submit', e => {
